@@ -1,0 +1,10 @@
+print("hello, world")
+name=input("what is your name? ")
+print ("hello,")
+print(name)
+print ("hello, " + name)
+# commas outside quotes add space itself
+print ("hello," , name)
+print("hello,", end=" ")
+print (name)
+print ("hello, " + name, sep=" ")
